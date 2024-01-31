@@ -1,3 +1,5 @@
+/* 모든 컴포넌트에 적용되는 공용 css임 */
+
 body {
   margin: 0;
   background: #303030;
@@ -32,4 +34,23 @@ body {
   text-decoration: none;
   color: #61dafb;
   font-weight: bold;
+}
+
+.food {
+  margin : 20px auto;
+  width : 200px;
+  background: white;
+  color: black;
+  padding : 20px;
+  border-radius: 5px;
+}
+
+.navbar {
+  background: white;
+  padding: 20px;
+}
+
+.navbar a {
+  margin-right: 10px;
+  text-decoration: none;
 }
