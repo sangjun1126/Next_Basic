@@ -9,10 +9,6 @@ export default function Home() {
   let link = "http://google.com";
   return (
     <div>
-      <div className="navbar">
-        <Link href="/">홈</Link>
-        <Link href="/list">List</Link>
-      </div>
       <h4 className="title">{title_name}</h4>
       <p className="title-sub">by dev {name}</p>
       <a className="link " href={link}>
